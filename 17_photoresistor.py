@@ -2,6 +2,8 @@
 import ADC0832
 import time
 
+#It seems a lot of code is missing. Adeept to update
+
 def init():
 	ADC0832.setup()
 
@@ -19,6 +21,6 @@ if __name__ == '__main__':
 	init()
 	try:
 		loop()
-	except KeyboardInterrupt: 
+	except KeyboardInterrupt:
 		ADC0832.destroy()
 		print 'The end !'

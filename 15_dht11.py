@@ -2,7 +2,7 @@
 
 import RPi.GPIO as GPIO
 import time
-
+# not working. always returnign the same numbers not changing with temperature
 channel = 18
 data = []
 j = 0
